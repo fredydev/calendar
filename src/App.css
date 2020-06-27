@@ -9,7 +9,7 @@
   color: white;
 }
 .buttonContainer{
-  width: 400px;
+  width: 20em;
   /* border: solid red; */
   display: flex;
   justify-content: space-between;
@@ -17,16 +17,32 @@
 }
 .buttonContainer button{
   border: 1px solid orange;
+  border-bottom: none;
+  margin:0;
   background-color: transparent;
-  font-size: 2rem;
-  border-radius: 3px;
+  font-size: 100%;
+  /* border-radius: 3px; */
   cursor: pointer;
-  color: whitesmoke;
+  color: orange;
   transition: all 0.3s ease-in-out;
+  outline: none;
+}
+input[type="button"]{
+  outline:none;
 }
 .buttonContainer button:hover{
   background-color: orange;
   transition: all 0.3s ease-in-out;
+  color: #282c34;
+}
+.buttonContainer span{
+  background-color: orange;
+  color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;;
 }
 /* .red{
   background: red;
